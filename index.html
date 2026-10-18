@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Trend Desk</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 16px; color: #1a1a1a; line-height: 1.6; background: #fff; }
+  header { border-bottom: 1px solid #e5e5e5; margin-bottom: 24px; }
+  h1 { margin: 0 0 8px; }
+  .yt { display: inline-block; background: #ff0000; color: #fff; font-weight: 700; padding: 2px 8px; border-radius: 4px; font-size: 14px; }
+  nav a { margin-right: 16px; }
+  footer { margin-top: 40px; border-top: 1px solid #e5e5e5; padding-top: 16px; font-size: 14px; color: #555; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Shorts Trend Desk</h1>
+  <p><span class="yt">Uses YouTube API Services</span></p>
+  <nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+</header>
+
+<h2>What it is</h2>
+<p>Shorts Trend Desk is a private, internal analytics tool run by an independent Shorts creator. It helps plan new Shorts by showing which Shorts channels and videos are growing quickly in different countries and categories.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Searches for recent public Shorts by region and keyword (YouTube Data API <code>search.list</code>).</li>
+  <li>Refreshes public statistics of channels it has found &mdash; view counts, subscriber counts, upload lists (<code>videos.list</code>, <code>channels.list</code>, <code>playlistItems.list</code>).</li>
+  <li>Reads public comments on a small number of reference videos to understand audience reactions (<code>commentThreads.list</code>).</li>
+  <li>Shows the results on a dashboard that only the operator can access.</li>
+</ul>
+
+<h2>What it does not do</h2>
+<ul>
+  <li>It is not distributed, sold, or offered to other users.</li>
+  <li>It does not sign in to YouTube accounts, upload videos, post comments, or change any YouTube content.</li>
+  <li>It does not collect personal information from visitors of this site.</li>
+</ul>
+
+<footer>
+  This tool uses YouTube API Services. See the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.<br>
+  <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a> &middot; Contact: <a href="https://github.com/seokgo/shorts-trend-desk/issues">GitHub Issues</a>
+</footer>
+</body>
+</html>
